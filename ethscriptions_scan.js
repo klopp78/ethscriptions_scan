@@ -27,7 +27,7 @@ function queryContent(content) {
 (async () => {
   const inputs = [];
   for (let number = 1; number < 50; number++) {
-    const content = `{"p":"erc-20","op":"mint","tick":"eths","id":"${number}","amt":"1000"}`;
+    const content = `{"p":"erc-20","op":"mint","tick":"pepe","id":"${number}","amt":"1000"}`;
     inputs.push(content);
   }
 
